@@ -1,0 +1,25 @@
+{
+  "name": "storybook6",
+  "version": "1.0.0",
+  "description": "Example app for using storybook 6.0",
+  "main": "index.html",
+  "scripts": {
+    "test": "run test",
+    "dev": "parcel index.html",
+    "build": "parcel build index.html",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "author": "Miriam Haenle",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@storybook/addon-actions": "^6.0.21",
+    "@storybook/addon-essentials": "^6.0.21",
+    "@storybook/addon-links": "^6.0.21",
+    "@storybook/html": "^6.0.21",
+    "babel-loader": "^8.1.0",
+    "react-is": "^16.13.1"
+  },
+  "dependencies": {}
+}
