@@ -1,16 +1,14 @@
-import { Logo } from './4-Logo.stories'
-import { Navigation } from './2-Navigation.stories'
-
 export default {
   title: 'components/Header',
-  component: Header,
-  children: { control: 'text' },
 }
 
-const Template = (children) => {
-  const header = document.createElement('section')
-  header.classList.add('sidebar')
-
-  return header
-}
-export const Header = Template.bind({})
+export const Header = () => `<section class="sidebar">
+<div class="logo">miriamhaenle<span>Portfolio</span></div>
+<nav>
+  <a href="" class="nav-item">Home</a>
+  <a href="" class="nav-item">About</a>
+  <a href="" class="nav-item active">Portfolio</a>
+  <a href="" class="nav-item">Contact</a>
+</nav>
+</section>
+`
