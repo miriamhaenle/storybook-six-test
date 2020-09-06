@@ -5,7 +5,7 @@ export default {
   },
 }
 
-const Template = ({ children, backgrounds }) => {
+const Template = ({ children }) => {
   const navContainer = document.createElement('section')
   navContainer.classList.add('sidebar')
   const nav = document.createElement('nav')
